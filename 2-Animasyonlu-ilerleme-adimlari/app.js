@@ -27,9 +27,9 @@ prev.addEventListener("click", ()=>{
 function update(){
     circle.forEach((circle,index) =>{
        if(index < currentActive){
-            cicrle.classList.add("active")
+            circle.classList.add("active")
        }else{
-            cicrle.classList.remove("active")
+            circle.classList.remove("active")
        }
     })
     const actives = document.querySelectorAll(".active")
