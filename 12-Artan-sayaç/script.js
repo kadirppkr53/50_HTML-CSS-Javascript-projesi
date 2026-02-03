@@ -5,7 +5,7 @@ counters.forEach((counter) => {
 
     const updateCounter = () => {
         const target = Number(counter.getAttribute("data-target"))
-        //console.log(typeof target, target);
+        
         const c = +counter.innerText
 
         const incremet = target / 300 
